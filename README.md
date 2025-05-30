@@ -4,7 +4,7 @@ This project provides a Vercel-compatible API for streaming movies by IMDb ID. I
 
 ## Usage
 
-- **API Endpoint:** `/api/stream?imdb=ttxxxx&api=YOUR_BROWSERLESS_TOKEN`
+- **API Endpoint:** `/api/movie?imdb=ttxxxx&api=YOUR_BROWSERLESS_TOKEN`
   - `imdb`: IMDb ID of the movie (e.g. `tt3606752`)
   - `api`: (optional) Browserless API key. If omitted, the `BROWSERLESS_TOKEN` environment variable is used.
 - The endpoint returns an HTML page with a video player streaming the movie.
